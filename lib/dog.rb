@@ -8,6 +8,10 @@ class Dog
     @@all.push(self)
   end
   
+  def save
+    @@all.push(self)
+  end
+  
   def self.all
     @@all
   end
